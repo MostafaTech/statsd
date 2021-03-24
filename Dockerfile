@@ -1,4 +1,4 @@
-FROM node:12.18.3
+FROM node:14.16.0-stretch-slim
 
 RUN mkdir -p /usr/src/app
 WORKDIR /usr/src/app
